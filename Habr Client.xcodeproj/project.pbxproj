@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090802FB2B8124E2000E1515 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090802FA2B8124E2000E1515 /* Colors.swift */; };
+		090803082B812A14000E1515 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 090803042B812A14000E1515 /* Montserrat-Medium.ttf */; };
+		090803092B812A14000E1515 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 090803052B812A14000E1515 /* Montserrat-Regular.ttf */; };
+		0908030A2B812A14000E1515 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 090803062B812A14000E1515 /* Montserrat-Bold.ttf */; };
+		0908030B2B812D9F000E1515 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 090803032B812A14000E1515 /* Montserrat-SemiBold.ttf */; };
 		094C46222B7CC5AE00D3416B /* Habr_ClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094C46212B7CC5AE00D3416B /* Habr_ClientApp.swift */; };
-		094C46242B7CC5AE00D3416B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094C46232B7CC5AE00D3416B /* ContentView.swift */; };
 		094C46262B7CC5B000D3416B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094C46252B7CC5B000D3416B /* Assets.xcassets */; };
 		094C462A2B7CC5B000D3416B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094C46292B7CC5B000D3416B /* Preview Assets.xcassets */; };
+		095942C52B9B5229006F8AD9 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095942C42B9B5229006F8AD9 /* SplashScreen.swift */; };
+		09CCEBB22B7CE14800CC4C16 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CCEBB12B7CE14800CC4C16 /* OnboardingScreen.swift */; };
+		09CCEBB42B7CE15200CC4C16 /* ArticlesListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CCEBB32B7CE15200CC4C16 /* ArticlesListScreen.swift */; };
+		16A7E02A323E98689CA32A48 /* Pods_Habr_Client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C59F0123DE82A617E0A1AB1 /* Pods_Habr_Client.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		090802FA2B8124E2000E1515 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		090803032B812A14000E1515 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		090803042B812A14000E1515 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		090803052B812A14000E1515 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		090803062B812A14000E1515 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		094C461E2B7CC5AE00D3416B /* Habr Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habr Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		094C46212B7CC5AE00D3416B /* Habr_ClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habr_ClientApp.swift; sourceTree = "<group>"; };
-		094C46232B7CC5AE00D3416B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		094C46252B7CC5B000D3416B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		094C46272B7CC5B000D3416B /* Habr_Client.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Habr_Client.entitlements; sourceTree = "<group>"; };
 		094C46292B7CC5B000D3416B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		095942C42B9B5229006F8AD9 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		09CCEBB12B7CE14800CC4C16 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		09CCEBB32B7CE15200CC4C16 /* ArticlesListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListScreen.swift; sourceTree = "<group>"; };
+		2C59F0123DE82A617E0A1AB1 /* Pods_Habr_Client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Habr_Client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B101B873028858A2DF1B4762 /* Pods-Habr Client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Habr Client.debug.xcconfig"; path = "Target Support Files/Pods-Habr Client/Pods-Habr Client.debug.xcconfig"; sourceTree = "<group>"; };
+		B8A181717035CC58BEB53753 /* Pods-Habr Client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Habr Client.release.xcconfig"; path = "Target Support Files/Pods-Habr Client/Pods-Habr Client.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +45,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16A7E02A323E98689CA32A48 /* Pods_Habr_Client.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		090802F92B8124CB000E1515 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				090802FD2B81295E000E1515 /* fonts */,
+				090802FC2B81294F000E1515 /* colors */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		090802FC2B81294F000E1515 /* colors */ = {
+			isa = PBXGroup;
+			children = (
+				090802FA2B8124E2000E1515 /* Colors.swift */,
+			);
+			path = colors;
+			sourceTree = "<group>";
+		};
+		090802FD2B81295E000E1515 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				090803062B812A14000E1515 /* Montserrat-Bold.ttf */,
+				090803042B812A14000E1515 /* Montserrat-Medium.ttf */,
+				090803052B812A14000E1515 /* Montserrat-Regular.ttf */,
+				090803032B812A14000E1515 /* Montserrat-SemiBold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		094C46152B7CC5AE00D3416B = {
 			isa = PBXGroup;
 			children = (
 				094C46202B7CC5AE00D3416B /* Habr Client */,
 				094C461F2B7CC5AE00D3416B /* Products */,
+				34C472F0F7D3B1C6EAC5A8FE /* Pods */,
+				8F99660AE42E8BE3B9C5AA5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +101,10 @@
 		094C46202B7CC5AE00D3416B /* Habr Client */ = {
 			isa = PBXGroup;
 			children = (
+				09CCEBAA2B7CE08F00CC4C16 /* Domain */,
+				09CCEBA92B7CE08A00CC4C16 /* Data */,
+				09CCEBA82B7CE08000CC4C16 /* Presentation */,
 				094C46212B7CC5AE00D3416B /* Habr_ClientApp.swift */,
-				094C46232B7CC5AE00D3416B /* ContentView.swift */,
 				094C46252B7CC5B000D3416B /* Assets.xcassets */,
 				094C46272B7CC5B000D3416B /* Habr_Client.entitlements */,
 				094C46282B7CC5B000D3416B /* Preview Content */,
@@ -69,6 +120,88 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		095942C02B9B51E3006F8AD9 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				095942C12B9B51F6006F8AD9 /* splash */,
+				09CCEBAC2B7CE09E00CC4C16 /* onboarding */,
+				09CCEBAD2B7CE0A800CC4C16 /* articles_list */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		095942C12B9B51F6006F8AD9 /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				095942C42B9B5229006F8AD9 /* SplashScreen.swift */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		09CCEBA82B7CE08000CC4C16 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				09CCEBAB2B7CE09700CC4C16 /* ui */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		09CCEBA92B7CE08A00CC4C16 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		09CCEBAA2B7CE08F00CC4C16 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		09CCEBAB2B7CE09700CC4C16 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				095942C02B9B51E3006F8AD9 /* screens */,
+				090802F92B8124CB000E1515 /* components */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		09CCEBAC2B7CE09E00CC4C16 /* onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				09CCEBB12B7CE14800CC4C16 /* OnboardingScreen.swift */,
+			);
+			path = onboarding;
+			sourceTree = "<group>";
+		};
+		09CCEBAD2B7CE0A800CC4C16 /* articles_list */ = {
+			isa = PBXGroup;
+			children = (
+				09CCEBB32B7CE15200CC4C16 /* ArticlesListScreen.swift */,
+			);
+			path = articles_list;
+			sourceTree = "<group>";
+		};
+		34C472F0F7D3B1C6EAC5A8FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B101B873028858A2DF1B4762 /* Pods-Habr Client.debug.xcconfig */,
+				B8A181717035CC58BEB53753 /* Pods-Habr Client.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8F99660AE42E8BE3B9C5AA5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C59F0123DE82A617E0A1AB1 /* Pods_Habr_Client.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 094C462D2B7CC5B000D3416B /* Build configuration list for PBXNativeTarget "Habr Client" */;
 			buildPhases = (
+				0F4921B1607A5C43553404DF /* [CP] Check Pods Manifest.lock */,
 				094C461A2B7CC5AE00D3416B /* Sources */,
 				094C461B2B7CC5AE00D3416B /* Frameworks */,
 				094C461C2B7CC5AE00D3416B /* Resources */,
+				5CD2E056A287AE29FCA68914 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +262,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0908030B2B812D9F000E1515 /* Montserrat-SemiBold.ttf in Resources */,
 				094C462A2B7CC5B000D3416B /* Preview Assets.xcassets in Resources */,
+				0908030A2B812A14000E1515 /* Montserrat-Bold.ttf in Resources */,
+				090803082B812A14000E1515 /* Montserrat-Medium.ttf in Resources */,
+				090803092B812A14000E1515 /* Montserrat-Regular.ttf in Resources */,
 				094C46262B7CC5B000D3416B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F4921B1607A5C43553404DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Habr Client-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CD2E056A287AE29FCA68914 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Habr Client/Pods-Habr Client-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Habr Client/Pods-Habr Client-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Habr Client/Pods-Habr Client-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		094C461A2B7CC5AE00D3416B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				094C46242B7CC5AE00D3416B /* ContentView.swift in Sources */,
+				095942C52B9B5229006F8AD9 /* SplashScreen.swift in Sources */,
+				09CCEBB42B7CE15200CC4C16 /* ArticlesListScreen.swift in Sources */,
+				090802FB2B8124E2000E1515 /* Colors.swift in Sources */,
 				094C46222B7CC5AE00D3416B /* Habr_ClientApp.swift in Sources */,
+				09CCEBB22B7CE14800CC4C16 /* OnboardingScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +368,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -245,7 +429,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -263,6 +447,7 @@
 		};
 		094C462E2B7CC5B000D3416B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B101B873028858A2DF1B4762 /* Pods-Habr Client.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -272,25 +457,31 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Habr Client/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Habr-Client-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ilusha.Habr-Client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,6 +490,7 @@
 		};
 		094C462F2B7CC5B000D3416B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A181717035CC58BEB53753 /* Pods-Habr Client.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -308,25 +500,31 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Habr Client/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Habr-Client-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ilusha.Habr-Client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

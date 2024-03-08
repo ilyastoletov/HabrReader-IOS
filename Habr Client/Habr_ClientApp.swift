@@ -11,7 +11,7 @@ import SwiftUI
 struct Habr_ClientApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           SplashScreen()
         }
     }
 }
